@@ -2,7 +2,9 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, TouchableOpacity, ImageBackground  } from 'react-native';
 import { withTheme } from 'react-native-elements';
+
 const image = require('../assets/lighthouse.jpeg');
+
 
 export default function Homescreen({ navigation }) {
     const pressHandler = () => {
