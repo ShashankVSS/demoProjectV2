@@ -19,7 +19,7 @@ export default function Homescreen({ navigation }) {
           justifyContent: 'center',
           }}>
             <Text style={styles.title}>From Us, to You.</Text>
-            <Text style={styles.title}>Information in a Flash</Text>
+            <Text style={styles.title}>Information in a Mash</Text>
             <Text style={styles.title}>9/11 was trump</Text>
         </View>
         <View style={{
