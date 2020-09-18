@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, TouchableOpacity, ImageBackground  } from 'react-native';
 import { withTheme } from 'react-native-elements';
 
-const image = require('../assets/airport.jpg');
+const image = require('../assets/plane.jpeg');
 
 
 export default function Homescreen({ navigation }) {
@@ -14,7 +14,7 @@ export default function Homescreen({ navigation }) {
         <ImageBackground source={image} style={styles.image}>
         <StatusBar style="auto" />
         <View style={{
-          flex: 4.5,
+          flex: 5,
           alignContent: 'center',
           justifyContent: 'center',
           }}>
@@ -71,6 +71,7 @@ export default function Homescreen({ navigation }) {
       top: -80,
       fontSize: 40,
       fontFamily: 'Staatliches',
+      color: 'white',
 
     },
     linktext: {
