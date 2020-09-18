@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView, TouchableOpacity, ImageBackground  } from 'react-native';
 import { withTheme } from 'react-native-elements';
 
-const image = require('../assets/lighthouse.jpeg');
+const image = require('../assets/airport.jpg');
 
 
 export default function Homescreen({ navigation }) {
@@ -14,8 +14,12 @@ export default function Homescreen({ navigation }) {
         <ImageBackground source={image} style={styles.image}>
         <StatusBar style="auto" />
         <View style={{
-          flex: 5,
+          flex: 4.5,
+          alignContent: 'center',
+          justifyContent: 'center',
           }}>
+            <Text style={styles.title}>From Us, to You.</Text>
+            <Text style={styles.title}>Information in a Flash</Text>
         </View>
         <View style={{
           flex: 1,
@@ -31,7 +35,6 @@ export default function Homescreen({ navigation }) {
         <View style={{
           flex: 1,
           alignContent: 'center',
-          justifyContent: 'center',        
           }}>
             <TouchableOpacity onPress={() => console.log("About Pressed")}>
               <View style={styles.button}>
@@ -62,6 +65,13 @@ export default function Homescreen({ navigation }) {
       justifyContent: 'center',
       alignItems: 'center',
       alignSelf: 'center'
+    },
+    title: {
+      alignSelf: 'center',
+      top: -80,
+      fontSize: 40,
+      fontFamily: 'Staatliches',
+
     },
     linktext: {
       fontWeight: 'bold',
