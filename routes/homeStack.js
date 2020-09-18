@@ -5,7 +5,10 @@ import Optionscreen from '../screens/optionscreen'
 
 const screens = {
     Home: {
-        screen: Homescreen
+        screen: Homescreen,
+        navigationOptions: {
+            headerShown:false
+          },
     }, 
     About: {
         screen: Optionscreen
