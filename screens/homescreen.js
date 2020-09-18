@@ -11,7 +11,6 @@ export default function Homescreen({ navigation }) {
         navigation.navigate('Option')
     }
     return (
-      <SafeAreaView style={styles.container}>
         <ImageBackground source={image} style={styles.image}>
         <StatusBar style="auto" />
         <View style={{
@@ -41,7 +40,6 @@ export default function Homescreen({ navigation }) {
             </TouchableOpacity>
         </View>
         </ImageBackground>
-      </SafeAreaView>
     );
   }
   
