@@ -8,7 +8,7 @@ const image = require('../assets/lighthouse.jpeg');
 
 export default function Homescreen({ navigation }) {
     const pressHandler = () => {
-        navigation.navigate('About')
+        navigation.navigate('Option')
     }
     return (
       <SafeAreaView style={styles.container}>
@@ -25,7 +25,7 @@ export default function Homescreen({ navigation }) {
           }}>
             <TouchableOpacity onPress={pressHandler}>
               <View style={styles.button}>
-                <Text style={styles.linktext}>ABOUT</Text>
+                <Text style={styles.linktext}>OPTIONS</Text>
               </View>
             </TouchableOpacity>
         </View>
@@ -34,9 +34,9 @@ export default function Homescreen({ navigation }) {
           alignContent: 'center',
           justifyContent: 'center',        
           }}>
-            <TouchableOpacity onPress={() => console.log("Options Pressed")}>
+            <TouchableOpacity onPress={() => console.log("About Pressed")}>
               <View style={styles.button}>
-                <Text style={styles.linktext}>OPTIONS</Text>
+                <Text style={styles.linktext}>ABOUT</Text>
               </View>
             </TouchableOpacity>
         </View>
