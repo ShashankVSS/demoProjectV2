@@ -15,7 +15,10 @@ const screens = {
         }
     }, 
     Option: {
-        screen: Optionscreen
+        screen: Optionscreen,
+        navigationOptions: {
+            headerTransparent: true,
+        }
     },
 }
 
