@@ -20,7 +20,7 @@ export default function Homescreen({ navigation }) {
           }}>
             <Text style={styles.title}>From Us, to You.</Text>
             <Text style={styles.title}>Information in a Flash</Text>
-            <Text style={styles.title}>9/11 was trump</Text>
+            <Text style={styles.title}>9/11 was trump and Bush</Text>
         </View>
         <View style={{
           flex: 1,
