@@ -19,8 +19,13 @@ export default function Homescreen({ navigation }) {
           justifyContent: 'center',
           }}>
             <Text style={styles.title}>From Us, to You.</Text>
+<<<<<<< HEAD
             <Text style={styles.title}>Information in a Flash</Text>
             <Text style={styles.title}>9/11 was trump and Bush</Text>
+=======
+            <Text style={styles.title}>Information in a Flashy Flash</Text>
+            <Text style={styles.title}>9/11 was trump</Text>
+>>>>>>> 470dbafab77b59f3a56cbd1faccb0dc94a009401
         </View>
         <View style={{
           flex: 1,
